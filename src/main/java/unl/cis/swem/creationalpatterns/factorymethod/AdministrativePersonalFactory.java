@@ -25,7 +25,7 @@ public class AdministrativePersonalFactory extends PersonFactoryMethod{
     public Person dataIngress() {
         // AquI INGRESAR INFO
         LocalDate now = LocalDate.of(2001, Month.JULY, 30);
-        AdministrativePersonal s = new AdministrativePersonal("Kimberly", "Flores del Jardín", "110456980", "Director","Ingeniero","Tesorero");
+        AdministrativePersonal s = new AdministrativePersonal("Kimberly", "Flores del Jardín", "110456980","Ingeniero","Tesorero");
         return s;
     }
 }

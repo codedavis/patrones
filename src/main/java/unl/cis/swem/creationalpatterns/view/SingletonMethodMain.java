@@ -12,9 +12,9 @@ public class SingletonMethodMain {
 	        Ies ies = Ies.getInstance();
 
 	        //instancia de profesor
-	        Teacher profesor = new Teacher("Alberto", "Marin", "1900359769", "1998-02-01","Ingeniero","Docente");
+	        Teacher profesor = new Teacher("Alberto", "Marin", "1900359769", "1998-02-01","Ingeniero");
 	        //instancia de personal administrativo
-	        AdministrativePersonal admin = new AdministrativePersonal("Juan", "Guaman", "1103212009", "Jefa de Seccion Software","Contador","Coordinacion");
+	        AdministrativePersonal admin = new AdministrativePersonal("Juan", "Guaman", "1103212009", "Jefa de Seccion Software","Contador");
 	        //instancia de estudiante
 	        SocialEconomicLevel socialEconomic = null;
 	        Student estudiante = new Student("Carlos", "Jijal", "1105644270",socialEconomic.MEDIUM);

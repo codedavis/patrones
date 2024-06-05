@@ -25,7 +25,7 @@ public class TeacherFactory extends PersonFactoryMethod{
     public Person dataIngress() {
         // AquI INGRESAR INFO
         LocalDate now = LocalDate.of(1978, Month.MARCH, 27);
-        Teacher s = new Teacher("Corazón", "Barriga", "1134608674", "Cardiológo y Gastroenterólogo","ingfeniero","Profe");
+        Teacher s = new Teacher("Corazón", "Barriga", "1134608674", "Cardiológo y Gastroenterólogo","Profe");
         return s;
     }
 }

@@ -20,6 +20,11 @@ public abstract class Person {
     private String dui;
     private LocalDate birthDate;
 
+    
+    public Person() {
+    	
+    }
+    
 
     public Person(String firstName, String lastName, String dui) {
         uuid= UUID.randomUUID().toString();   

@@ -12,11 +12,17 @@ import java.time.LocalDate;
  */
 public class AdministrativePersonal extends Empleado{
 
-    private String charge;            
+        
+	
+    public AdministrativePersonal() {
+       
+    }
 
-    public AdministrativePersonal(String firstName, String lastName, String dui, String charge,String titulo, String cargo) {
+    
+    
+    public AdministrativePersonal(String firstName, String lastName, String dui,String titulo, String cargo) {
         super(firstName, lastName, dui, titulo, cargo);
-        this.charge = charge;
+   
     }
 
     
@@ -26,19 +32,13 @@ public class AdministrativePersonal extends Empleado{
             " Y GESTIONO A LOS MIEMBORS DE LAS IES");    
     }
 
-    public String getCharge() {
-        return charge;
-    }
 
-    public void setCharge(String charge) {
-        this.charge = charge;
-    }
 
     @Override
     public String toString() {
         return "AdministrativePersonal{"
                 + super.toString() + ", "
-                + "charge=" + charge + '}';
+                + "charge=" + getCargo() + '}';
     }
     
     

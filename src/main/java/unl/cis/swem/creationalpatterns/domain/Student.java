@@ -14,7 +14,16 @@ public class Student extends Person{
 
     private SocialEconomicLevel socialEconomicLevel;
 
-    public Student(String firstName, String lastName, String dui, 
+    
+    public Student() {
+    	
+    }
+    
+    public Student(String firstName,String lastName, String dui) {
+    	super(firstName, lastName, dui);
+    }
+
+	public Student(String firstName, String lastName, String dui, 
             SocialEconomicLevel socialEconomicLevel) {
         super(firstName, lastName, dui);
         this.socialEconomicLevel = socialEconomicLevel;

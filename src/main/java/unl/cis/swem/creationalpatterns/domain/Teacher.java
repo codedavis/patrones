@@ -12,11 +12,18 @@ import java.time.LocalDate;
  */
 public class Teacher extends Empleado{
     
-    private String academicDegree;
+   
 
-    public Teacher(String firstName, String lastName, String dui, String academicDegree,String titulo, String cargo) {
+    
+    //constructor sin parametros
+    public Teacher() {
+    	
+    }
+    
+    
+    public Teacher(String firstName, String lastName, String dui,String titulo, String cargo) {
         super(firstName, lastName, dui, titulo, cargo);
-        this.academicDegree = academicDegree;
+       
     }
 
 
@@ -29,18 +36,12 @@ public class Teacher extends Empleado{
             " E IMPARTO CLASES");
     }
 
-    public String getAcademicDegree() {
-        return academicDegree;
-    }
-
-    public void setAcademicDegree(String academicDegree) {
-        this.academicDegree = academicDegree;
-    }
+   
 
     @Override
     public String toString() {
         return  super.toString() + ", "
-                + "academicDegree=" + academicDegree + '}';
+                + "academicDegree=" + this.getTitulo() + '}';
     }
 
     

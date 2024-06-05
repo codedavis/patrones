@@ -7,6 +7,12 @@ public class Empleado  extends Person {
     private String cargo;
     
     
+    
+    //constructor sin parameteos
+    public Empleado() {
+       
+    }
+    
     public Empleado(String firstName,String lastName, String dui,String titulo, String cargo) {
         super(firstName, lastName, dui);
         this.titulo = titulo;

@@ -19,7 +19,7 @@ public class FactoryMethodMain {
 
     public static void main(String[] args) {
        
-        System.out.println("Hello World!");
+        System.out.println("FACTORY!");
         
         PersonFactoryMethod personFactory;
         //personFactory = new TeacherFactory();
