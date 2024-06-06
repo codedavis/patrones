@@ -13,9 +13,9 @@ public class PersonaBuilder {
     private String lastName;
     private LocalDate birthDate;
     private String uuid;
-    private SocialEconomicLevel socialEconomicLevel; // Solo para Student
-    private String academicDegree; // Solo para Teacher
-    private String charge; // Solo para AdministrativePersonal
+    private SocialEconomicLevel socialEconomicLevel; // Solo para Estudiante
+    private String academicDegree; // Solo para Profesor
+    private String charge; // Solo para Admin
     private String titulo; //Solo para empleado
     private String cargo; //Solo para empleado
     
